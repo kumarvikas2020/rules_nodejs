@@ -70,7 +70,7 @@ def is_darwin_os(rctx):
 
 def is_linux_os(rctx):
     name = os_name(rctx)
-    return name == OS_NAMES[3] or name == OS_NAMES[4] or name == OS_NAMES[5]
+    return name == OS_NAMES[3] or name == OS_NAMES[4] or name == OS_NAMES[5] or name == OS_NAMES[6]
 
 def node_exists_for_os(node_version, os_name):
     "Whether a node binary is available for this platform"
